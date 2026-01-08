@@ -7,7 +7,6 @@
   font-style: normal;
 }
 body {
- 
 }
 /* img{
   border: 2px solid slateblue;
@@ -96,7 +95,6 @@ main > section {
   align-items: center;
 }
 .image-container {
-  border: 1px solid salmon;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -144,7 +142,7 @@ main > section {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.architect-image{
+.architect-image {
   width: 100%;
   height: auto;
   display: block;
@@ -213,16 +211,15 @@ main > section {
   grid-template-columns: repeat(5, 1fr);
   margin-top: 50px;
   filter: grayscale(100%);
-
 }
 /* footer related style */
-.footer{
+.footer {
   max-width: 1440px;
   margin: 70px auto;
   height: 100px;
   background-color: rgba(255, 244, 231, 1);
 }
-.ending{
+.ending {
   display: flex;
   justify-content: center;
   padding-top: 40px;
@@ -248,13 +245,12 @@ main > section {
     grid-template-columns: 1fr;
   }
   #experience-badge {
-    border: 2px solid red;
     width: 100%;
     padding: 20px;
     margin-left: 0px;
     margin-top: 10px;
   }
-  .architect-image img{
+  .architect-image {
     width: 100%;
     height: auto;
     display: block;
@@ -263,23 +259,23 @@ main > section {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
-  
+
   .fact-container,
-  .sponsors-companies{
+  .sponsors-companies {
     justify-items: center;
   }
   .sponsor-companies-name {
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
   }
-  .footer{
+  .footer {
     text-align: center;
     width: 100%;
     margin: 0 auto;
   }
-  .ending{
-  font-size: 1.25rem;
-}
+  .ending {
+    font-size: 1.25rem;
+  }
 }
 /* responsive for tablet */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -297,21 +293,21 @@ main > section {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
-  .sponsors-companies{
+
+  .sponsors-companies {
     justify-items: center;
   }
   .sponsor-companies-name {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
-  .footer{
+  .footer {
     justify-items: center;
     text-align: center;
     width: 100%;
     margin: 0 auto;
   }
-  .ending{
-  font-size: 1.25rem;
- }   
+  .ending {
+    font-size: 1.25rem;
+  }
 }
